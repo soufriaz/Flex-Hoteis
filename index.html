@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link css -->
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="indexSlide.css">
+
+    <title>Flex Hotéis | Reservas</title>
+  </head>
+  <body>
+    <header class="header">
+      
+     <a href="/"> <img src="image/logotipo/LogoTipo.png" alt="imagem logo" /> </a>
+
+      <nav class="nav">
+        <button id="btn-menu" class="hamburger"></button>
+
+        <ul class="nav-list">
+          <a href="Page/Passagem/passagem.html"><li>Nossos Serviços</li> </a>
+          <a href="Page/Contato/contato.html"> <li>Contato</li> </a>
+          <a href="Page/Sobre/sobre.html"><li>Sobre</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="title">
+        <h1>Escolha para onde ir:</h1> 
+        <h2>Encontre e reserve o seu quarto de hotel online com facilidade!</h2>
+        <input class="input" type="email">
+      </div>
+     
+
+      <div class="slider">
+
+        <div class="slides">
+            <!-- radio butt -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+
+            <!-- slide img -->
+
+            <div class="slide first">
+              <img src="image/tuirsmo espacial/turismo1.jpg" alt="imagem1">
+            </div>
+            <div class="slide">
+              <img src="image/tuirsmo espacial/turismo2.png" alt="imagem2">
+            </div>
+            <div class="slide">
+              <img src="image/tuirsmo espacial/turismo3.jpg" alt="imagem3">
+            </div>
+            <div class="slide">
+              <img src="image/tuirsmo espacial/turismo4.jpg" alt="imagem4">
+            </div>
+
+            <!-- navegação auto -->
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+        </div>
+
+        <div class="manual-navigation">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+
+      </div>
+
+
+      
+      <div id="mainCard">
+        
+        <p>
+          Venha fazer parte do seleto grupo de seres humanos que tiveram a oportunidade de ir ao
+          espaço. <br/>Participe dessa experiência com apenas um clique!
+        </p>
+       
+        <div id="btn-link">
+           <a  href="Page/Passagem/passagem.html">Adquira já!</a>
+        </div>
+
+    </div> 
+
+  <!-- colocar um do lado do outro | | | -->
+    <div id="valoresCard">
+      <div id="missao">
+        <h2>
+          Missão
+        </h2>
+        <p>
+          Nossa missão dentro desse ramo tão inusitado e inovador é popularizar o interesse de nosso público pelo universo através do turismo espacial. 
+        </p>
+      </div>
+
+      <div id="visao">
+      <h2>
+        Visão 
+      </h2>
+        <p>
+          Ser referência em turismo e levar o conceito “viagem” a outro patamar, mantendo assim, um vínculo além de nosso planeta através da tecnologia.
+        </p>
+
+        
+    </div>
+
+    <div id="valores">
+      <h2>
+        Valores
+      </h2>
+      <p>
+        Nós da SM prezamos sempre pela busca por recursos e inovações em novos planetas, sempre atingindo nossas metas e objetivos quando se fala em experiência única.
+      </p>
+      <p>
+        A SM tem atuado no setor de turismo espacial.
+        Com o avanço da tecnologia, nós desenvolvemos uma nave interplanetária chamada "Ninbus" que vem do latim “Auréola”, criada para viajar entre planetas e tem a capacidade de ocupação de até 500 passageiros, com quartos e até mesmo áreas de lazer para que sua experiência seja ainda mais única e completa.
+      </p>
+    </div>
+  </div>
+
+    </main>
+
+    <script src="index.js"></script>
+    <script src="indexSlide.js"></script>
+  </body>
+</html>
